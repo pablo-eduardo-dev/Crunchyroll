@@ -1,0 +1,16 @@
+#bannerContainer {
+    width: 100%;
+    min-height: 90vh; 
+    background: url() center / cover no-repeat;
+}
+
+.carousel {
+    position: relative;
+}
+
+.carousel img {
+    position: absolute;
+    left: 5%;
+    top: 50%;
+    transform: translateY(-50%);
+}

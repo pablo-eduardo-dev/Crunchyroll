@@ -1,0 +1,124 @@
+
+
+:root {
+  --dark-color: #23252b;
+}
+
+.headerContainer {
+  background-color: var(--dark-color);
+  padding: 20px 0;
+}
+
+.container {
+  max-width: 1200px;
+  width: 95%;
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.rightContent {
+  flex: 10%;
+}
+
+.headerMenu {
+  flex: 70%;
+  position: relative;
+  top: 9px;
+}
+
+.headerMenu ul {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.leftContent {
+  flex: 20%;
+}
+
+.rightContent,
+.rightContent ul,
+.leftContent,
+.premium {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.rightContent ul li {
+  list-style-type: none;
+}
+
+.logo img {
+  width: 134px;
+}
+
+.plan {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: space-a;
+  width: 300px;
+}
+
+.premium {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.plan,
+.plan svg {
+  color: yellow;
+  font-size: 12px;
+  
+}
+nav ul li,
+.plan span,
+.plan svg {
+  color: rgb(255, 255, 255); 
+}
+
+.plan svg {
+  font-size: 1.7em;
+  
+}
+
+#crown {  
+  color: yellow;
+}
+
+.logo {
+  margin-right: 20px;
+  
+}
+
+#navHeader ul li {
+  padding: 20px ;
+
+}
+
+nav ul li:hover {
+  background-color: #232323;
+}
+
+/* .menuIcons {
+  display: flex;
+  justify-content: space-around;
+  width: 200px;
+  border: 1px solid white;
+} */
+
+.premiumText {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 9px;
+}
+
+.headerMenu ul {
+  display: flex; 
+}
